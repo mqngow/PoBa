@@ -1,0 +1,35 @@
+# Python bytecode & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local Pokémon Showdown server clone
+pokemon-showdown/
+
+# Training & evaluation artifacts
+checkpoints/
+logs/
+tensorboard/
+results/
+*.zip
+*.pt
+*.pth
+
+# Cached data files (keep data/.gitkeep)
+data/raw/
+data/*.json
+
+# Environment secrets & OS files
+.env
+.DS_Store
+Thumbs.db
