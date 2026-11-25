@@ -15,6 +15,10 @@ LOGS_DIR = PROJECT_ROOT / "logs"
 RESULTS_DIR = PROJECT_ROOT / "results"
 SHOWDOWN_DIR = PROJECT_ROOT / "pokemon-showdown"
 
+# Public Gen 9 Random Battles usage & set statistics URL and local cache path
+RANDBATS_STATS_URL = "https://pkmn.github.io/randbats/data/stats/gen9randombattle.json"
+RANDBATS_STATS_PATH = DATA_DIR / "gen9randombattle_stats.json"
+
 # Default Pokémon Showdown battle format and local server connection settings
 BATTLE_FORMAT = "gen9randombattle"
 SHOWDOWN_HOST = "localhost"
